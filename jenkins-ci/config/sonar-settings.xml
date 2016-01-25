@@ -5,9 +5,9 @@
     <hudson.plugins.sonar.SonarInstallation>
       <name>Sonar</name>
       <disabled>false</disabled>
-      <serverUrl>http://sonar:9000</serverUrl>
+      <serverUrl>http://192.168.99.100:9000</serverUrl>
       <mojoVersion></mojoVersion>
-      <databaseUrl>jdbc:postgresql://sonar:5432/sonar</databaseUrl>
+      <databaseUrl>jdbc:postgresql://192.168.99.100:5432/sonar</databaseUrl>
       <databaseDriver>org.postgresql.Driver</databaseDriver>
       <databaseLogin></databaseLogin>
       <databasePassword></databasePassword>
