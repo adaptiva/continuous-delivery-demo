@@ -2,6 +2,7 @@ sonar:
   image: siamaksade/sonar
   ports:
     - "9000:9000"
+    - "5432:5432"
 nexus:
   image: siamaksade/nexus:2.8.1
   ports:
